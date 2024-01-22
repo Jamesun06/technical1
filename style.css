@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4;
+
+}
+
+ul{
+    list-style: none;
+}
+li {
+    font-size: 20px;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+}
+
+#container {
+    margin: 100px auto;
+    max-width: 700px;
+    min-height: 1000px;
+    padding: 50px 70px;
+    background: #fff;
+    border: solid 5px #aaaa;
+    border-radius: 20px;
+}
+
+.portfolio-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 5px #ccc;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.objective {
+    margin-bottom: 50px;
+}
+.background {
+    margin-bottom: 50px;
+}
+.skills {
+    margin-bottom: 50px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+td {
+    padding: 10px 20px; 
+}
+
+button {
+    height: 50px;
+    width: 90px;
+    display: inline-block;
+    border: 4px solid #ccc;
+    margin: 200px auto;
+    background: #1877F2;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0, .2);
+}
+
+
+
+
+
